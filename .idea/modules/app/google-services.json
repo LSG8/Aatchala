@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844528808270",
+    "firebase_url": "https://aatchala-7b23f.firebaseio.com",
+    "project_id": "aatchala-7b23f",
+    "storage_bucket": "aatchala-7b23f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844528808270:android:4550491a8d29302040ae1f",
+        "android_client_info": {
+          "package_name": "com.example.aatchala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844528808270-eghf7kcv6psbv15cpoi2ah67sfko9kvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aatchala",
+            "certificate_hash": "288374513767036497a3ae4540ec501c57dd14bf"
+          }
+        },
+        {
+          "client_id": "844528808270-8oc61crlv2ss254molgm12826d9u45oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZPYkk8DNqtqKBqLjOrY4hM1kBGPGQMdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844528808270-8oc61crlv2ss254molgm12826d9u45oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

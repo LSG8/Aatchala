@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Aatchala</string>
+    <string name="labelHome">Aatchala Society</string>
+    <string name="stay_home">Stay Home</string>
+    <string name="donate">Donate us</string>
+    <string name="contact">Contact us</string>
+    <string name="contactText">\n\nFor any help and emergency, call at our help-line numbers:\n +91-9064916417\n+91-8637366414</string>
+    <string name="about">About us</string>
+    <string name="aboutText">\n\tThe Ranaghat Sarak Para Aatchala Society has introduced "Stay Home" app at this critical pandemic situation of corona virus,
+        so as to keep the citizens to stay safe by staying home. We have a solution to all the worries at this lockdown period.
+        One team will reach out to you for the fresh fruits and vegetables, groceries, sweets, and medicines at your door steps.
+        We offer reasonable prices for each provided item in comparison to the marketplace and we also want that the customers
+        should avoid going to the market rush and stay safe at the home. We will make sure to schedule the delivery according to the customer\'s convenience.
+        Payment will be made by cash on delivery mode only. The items required by the customer but not listed at our app,
+        can also be requested upon at our personal contact number. According to the availability, it will be provided likewise.
+        \n\n"Our curfew, their doom"\n\n\tThe daily wage workers have been mostly affected by the lockdown.
+        They are without jobs and therefore without food for their family. So, Ranaghat Sarak Para Aatchala Society
+        has come forward to feed the poors as their immune systems are not immune to hunger.\n\tAt every transactions,
+        a small portion of the money will be contributed for the welfare of the needy. Let us stay strong and united, but at the respective homes.
+    </string>
+    <string name="submitText">Submit</string>
+    <string name="login">Login to your profile</string>
+    <string name="signupButtonText">Create your profile</string>
+    <string name="order">Order history</string>
+    <string name="resetPass">Reset your password</string>
+    <string name="newPasswordHint">Enter your new password</string>
+    <string name="reNewPasswordHint">Retype your new password</string>
+    <string name="register">Register here</string>
+    <string name="userIdHint">Enter your mobile number</string>
+    <string name="userNameHint">Enter your full name</string>
+    <string name="passwordHint">Enter your password</string>
+    <string name="rePasswordHint">Retype your password</string>
+    <string name="addressHint">Enter your address</string>
+    <string name="emailHint">Enter your e-mail id</string>
+    <string name="dobHint">Select your date of birth</string>
+    <string name="profile">Profile</string>
+    <string name="phoneText">Mobile number*</string>
+    <string name="nameText">Full name*</string>
+    <string name="passwordText">Password*</string>
+    <string name="rePasswordText">Confirm password*</string>
+    <string name="addressText">Address*</string>
+    <string name="emailText">E-mail id</string>
+    <string name="dobText">Date of birth*</string>
+    <string name="requireText">* fields are mandatory</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password? Tap here</string>
+    <string name="signup">New user? Register here</string>
+    <string name="cart">Cart</string>
+    <string name="drawer_item1">My profile</string>
+    <string name="drawer_item2">My order</string>
+    <string name="drawer_item3">My shopping cart</string>
+    <string name="drawer_item4">Log in/Sign up</string>
+    <string name="drawer_item5">About</string>
+    <string name="drawer_item6">Contact</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tab1">Vegetable</string>
+    <string name="tab2">Grocery</string>
+    <string name="tab3">Sweets</string>
+    <string name="tab4">Breakfast</string>
+    <string name="add2Cart">Add to cart</string>
+</resources>

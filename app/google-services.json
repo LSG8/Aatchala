@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083408023129",
+    "firebase_url": "https://aatchala-e90cc.firebaseio.com",
+    "project_id": "aatchala-e90cc",
+    "storage_bucket": "aatchala-e90cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083408023129:android:2089233013995a131abb48",
+        "android_client_info": {
+          "package_name": "com.example.aatchala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083408023129-dbq2s1mb75qiao8a4c6ppcdp6fhjta7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLf8tM5tUFNFb6CEB4PsEeppkTP2y32Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083408023129-dbq2s1mb75qiao8a4c6ppcdp6fhjta7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

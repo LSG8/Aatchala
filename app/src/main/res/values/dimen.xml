@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageMargin">2dp</dimen>
+    <dimen name="buttonMargin">1dp</dimen>
+    <dimen name="bodyText">30sp</dimen>
+    <dimen name="bodyTextList">25sp</dimen>
+    <dimen name="bodyTextSmall">20sp</dimen>
+    <dimen name="buttonText">15sp</dimen>
+    <dimen name="normalMargin">5dp</dimen>
+    <dimen name="bigMargin">15dp</dimen>
+    <dimen name="tabSize">25dp</dimen>
+    <dimen name="checkBoxSize">25dp</dimen>
+    <dimen name="normalPadding">10dp</dimen>
+    <dimen name="normalPaddingLite">2dp</dimen>
+</resources>

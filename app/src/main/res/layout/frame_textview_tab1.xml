@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin ="@dimen/buttonMargin"
+        android:orientation="horizontal"
+        android:background="@drawable/list_shape">
+
+        <TextView
+            android:id="@+id/tabText"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="63"
+            android:layout_margin ="@dimen/buttonMargin"
+            tools:text="This is some temp text"
+            android:textSize = "@dimen/bodyTextSmall"
+            android:textColor = "@color/black" />
+
+        <EditText
+            android:id="@+id/amountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:layout_margin ="@dimen/buttonMargin"
+            android:ems="2"
+            android:hint="Put value"
+            android:inputType="text"
+            android:textColorHint="@color/disable" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTab"
+            android:layout_width="@dimen/checkBoxSize"
+            android:layout_height="@dimen/checkBoxSize"
+            android:layout_weight="2"
+
+            app:buttonTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

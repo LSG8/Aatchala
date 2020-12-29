@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile"
+    android:background="@color/colorBack">
+
+    <TextView
+        android:id="@+id/HiProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:background="@drawable/list_shape"
+        android:textColor="@color/red"
+        android:textSize="@dimen/bodyText"
+        android:padding="@dimen/normalPadding"/>
+
+    <TextView
+        android:id="@+id/NameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSmall"
+        android:padding="@dimen/normalPaddingLite"/>
+    <TextView
+        android:id="@+id/PhoneProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSmall"
+        android:padding="@dimen/normalPaddingLite"/>
+    <TextView
+        android:id="@+id/AddressProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSmall"
+        android:padding="@dimen/normalPaddingLite"/>
+    <TextView
+        android:id="@+id/EmailProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSmall"
+        android:padding="@dimen/normalPaddingLite"/>
+
+
+
+</LinearLayout>

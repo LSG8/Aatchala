@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical"
+    tools:context=".StayHomeActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/tabSize"
+        app:tabBackground="@color/themeColor"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/disable"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/black"
+        app:tabTextAppearance="@style/TabStyle"
+        app:tabTextColor="@color/disable"></com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"></androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/addToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/buttonMargin"
+        android:layout_weight="10"
+        android:background="@drawable/button_shape"
+        android:text="@string/add2Cart"
+        android:textColor="@color/buttonText"
+        android:textSize="@dimen/bodyTextSmall" />
+</LinearLayout>

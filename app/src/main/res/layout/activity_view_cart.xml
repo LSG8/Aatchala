@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:background="@drawable/list_shape">
+
+    <TextView
+        android:id="@+id/cartView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normalPadding"
+        android:layout_margin="@dimen/normalMargin"
+        android:textColor="@color/normalText"
+        android:textSize="@dimen/bodyTextSmall" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/deleteCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/buttonMargin"
+            android:layout_weight="50"
+            android:background="@drawable/button_shape"
+            android:onClick="deleteCart"
+            android:text="Delete cart"
+            android:textColor="@color/buttonText"
+            android:textSize="@dimen/buttonText" />
+
+        <Button
+            android:id="@+id/submitCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/buttonMargin"
+            android:layout_weight="50"
+            android:background="@drawable/button_shape"
+            android:onClick="shareCart"
+            android:text="Submit"
+            android:textColor="@color/buttonText"
+            android:textSize="@dimen/buttonText" />
+    </LinearLayout>
+</LinearLayout>

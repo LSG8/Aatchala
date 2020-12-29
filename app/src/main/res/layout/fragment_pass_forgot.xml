@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/normalMargin"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/normalPadding"
+    tools:context=".PassForgotFragment">
+
+    <TextView
+        android:id="@+id/resetPassForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normalMargin"
+        android:padding="@dimen/normalPadding"
+        android:text="@string/resetPass"
+        android:textColor="@color/normalText"
+        android:textSize="@dimen/bodyTextSmall" />
+    <TextView
+        android:id="@+id/resetPassErrorStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/normalMargin"
+        android:padding="@dimen/normalPadding"
+        android:textColor="@color/red"
+        android:textSize="@dimen/bodyTextSmall" />
+
+    <EditText
+        android:id="@+id/userIdNewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/imageMargin"
+        android:ems="20"
+        android:hint="@string/userIdHint"
+        android:inputType="phone"
+        android:padding="@dimen/normalPadding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/disable"
+        android:textSize="@dimen/buttonText" />
+
+    <EditText
+        android:id="@+id/newPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/imageMargin"
+        android:ems="20"
+        android:hint="@string/newPasswordHint"
+        android:inputType="textPassword"
+        android:padding="@dimen/normalPadding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/disable"
+        android:textSize="@dimen/buttonText" />
+
+    <EditText
+        android:id="@+id/reNewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/imageMargin"
+        android:ems="20"
+        android:hint="@string/reNewPasswordHint"
+        android:inputType="textPassword"
+        android:padding="@dimen/normalPadding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/disable"
+        android:textSize="@dimen/buttonText" />
+
+    <Button
+        android:id="@+id/newPassSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@drawable/button_shape"
+        android:padding="@dimen/normalPadding"
+        android:text="@string/submitText"
+        android:textColor="@color/buttonText"
+        android:textSize="@dimen/buttonText" />
+</LinearLayout>
